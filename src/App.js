@@ -19,7 +19,7 @@ const filter = (e) => {
     setFoundCards(results);
   } else {
     setFoundCards(data.sampleData);
-    // If the text field is empty, show all users
+    // If the text field is empty, show all cards
   }
 
   setName(enteredCardName);
